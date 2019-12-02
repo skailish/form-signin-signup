@@ -17,21 +17,21 @@
       <div class="right">
         <h1 class="titulo">Hola!</h1>
         <p class="subtitle">Comencemos el viaje</p>
-        <form action="" class="form">
-          <label for="user" class="">Username</label>
-          <input type="text" id="user" placeholder="Ingresa tu nombre de usuario" class="">
-          <label for="mail" class="">Email</label>
-          <input type="text" id="mail" placeholder="ejemplo@dominio.com" class="">
-          <label for="pswd" class="">Contraseña</label>
-          <input type="password" id="pswd" placeholder="Ingresa tu contraseña" class="">
-          <label for="pswd2" class="">Confirmar contraseña</label>
-          <input type="password" id="pswd2" placeholder="Confirma tu contraseña" class="">
+        <form action="index.html" class="form">
+          <label for="user">Username</label>
+          <input type="text" id="user" placeholder="Ingresa tu nombre de usuario" required>
+          <label for="mail">Email</label>
+          <input type="text" id="mail" placeholder="ejemplo@dominio.com" required>
+          <label for="pswd">Contraseña</label>
+          <input type="password" id="pswd" placeholder="Ingresa tu contraseña" required>
+          <label for="pswd2">Confirmar contraseña</label>
+          <input type="password" id="pswd2" placeholder="Confirma tu contraseña" minlength="8" required >
           <div class="check">
-            <input type="checkbox" name="" id="" class="">Estoy de acuerdo con los <a href=""> términos y
+            <input type="checkbox" name="" id="" required>Estoy de acuerdo con los  <a href=""> términos y
               condiciones</a>
           </div>
-          <button class="">Registrarme</button>
-          <p class="">
+          <button>Registrarme</button>
+          <p>
             Tienes una cuenta? <a href="">Ingresa!</a>
           </p>
         </form>
